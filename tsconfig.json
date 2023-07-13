@@ -10,7 +10,6 @@
     "allowJs": true,
     "target": "es2017",
     "sourceMap": true,
-    "rootDir": "./src",
     "outDir": "./dist",
     "baseUrl": ".",
     "incremental": true,
@@ -22,8 +21,8 @@
     "noFallthroughCasesInSwitch": false,
   },
   "paths": {
-    "@models/*": [
-      "./src/models/*"
+    "@/*": [
+      "src/*"
     ],
   },
   "include": [

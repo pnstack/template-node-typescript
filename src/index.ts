@@ -1,3 +1,4 @@
-export function hi() {
-  console.log('hi');
+async function bootstrap(){
+  console.log("App started")
 }
+bootstrap();
