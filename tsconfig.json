@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
     "jsx": "react",
-    "module": "CommonJS",
+    "module": "es2022",
+    "target": "es2022",
     "declaration": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "allowJs": true,
-    "target": "es2022",
     "sourceMap": true,
     "outDir": "./dist",
     "moduleResolution": "node",
@@ -24,6 +24,9 @@
       "@/*": ["./src/*"]
     }
   },
+   "ts-node": {
+    "swc": true
+  },
   "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]  
+  "exclude": ["node_modules", "dist"]  
 }
