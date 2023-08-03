@@ -1,5 +1,5 @@
 {
-  "name": "zoom-clone",
+  "name": "template-nodejs-typescript",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "start": "node ./dist/index.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^16.3.1"
   },
