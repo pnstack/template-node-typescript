@@ -22,6 +22,7 @@
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "start": "node ./dist/cjs/index.js",
+    "start:dev": "yarn build  && node ./dist/cjs/index.js",
     "test:cov": "jest --coverage",
     "test:watch": "jest --watch",
     "test": "jest"
