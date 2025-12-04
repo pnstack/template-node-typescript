@@ -1,4 +1,4 @@
-const http = require('http');
+import http from 'http';
 
 async function bootstrap() {
   console.log('Starting server...');
