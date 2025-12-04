@@ -21,14 +21,7 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "paths": {
-      "@/*": ["src/*"],
-      "@/config": ["src/config"],
-      "@/types": ["src/types"],
-      "@/services": ["src/services"],
-      "@/constants": ["src/constants"],
-      "@/middleware": ["src/middleware"],
-      "@/utils": ["src/utils"],
-      "@/shared": ["src/shared"]
+      "@/*": ["src/*"]
     }
   },
   "ts-node": {
