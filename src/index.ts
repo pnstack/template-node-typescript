@@ -1,6 +1,4 @@
-var http = require('http');
-
-
+const http = require('http');
 
 async function bootstrap() {
   console.log('Starting server...');
