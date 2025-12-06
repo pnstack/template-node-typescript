@@ -2,7 +2,7 @@
   "compilerOptions": {
     "jsx": "react",
     "module": "CommonJS",
-    "target": "es2022",
+    "target": "ES2022",
     "declaration": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,

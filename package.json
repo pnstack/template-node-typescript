@@ -39,7 +39,7 @@
     "@swc/helpers": "^0.5.1",
     "@types/jest": "28.1.6",
     "@types/lodash": "^4.14.197",
-    "@types/node": "^18.16.19",
+    "@types/node": "^22.0.0",
     "@typescript-eslint/eslint-plugin": "5.30.7",
     "@typescript-eslint/parser": "5.30.7",
     "concurrently": "^7.6.0",
