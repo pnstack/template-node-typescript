@@ -1,32 +1,20 @@
 {
   "compilerOptions": {
-    "jsx": "react",
-    "module": "CommonJS",
     "target": "ES2022",
-    "declaration": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "allowJs": true,
-    "sourceMap": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "outDir": "./dist",
-    "moduleResolution": "node",
-    "baseUrl": "./",
-    "incremental": true,
+    "declaration": true,
+    "strict": true,
+    "noUnusedLocals": true,
     "skipLibCheck": true,
-    "strictNullChecks": false,
-    "noImplicitAny": false,
-    "strictBindCallApply": false,
-    "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false,
-    "paths": {
-      "@/*": ["src/*"]
-    }
+    "incremental": true,
+    "isolatedModules": true,
+    "tsBuildInfoFile": "./.tsbuildinfo",
+    "baseUrl": ".",
+    "jsx": "react-jsx",
+    "paths": { "@/*": ["./src/*"] }
   },
-  "ts-node": {
-    "swc": true
-  },
-  "include": ["**/*.ts", "**/*.tsx"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
