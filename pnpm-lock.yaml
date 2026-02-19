@@ -12,13 +12,13 @@ importers:
         specifier: ^14.0.3
         version: 14.0.3
       dotenv:
-        specifier: ^16.3.1
+        specifier: ^16.6.1
         version: 16.6.1
       ink:
         specifier: ^6.8.0
         version: 6.8.0(@types/react@19.2.14)(react@19.2.4)
       lodash:
-        specifier: ^4.17.21
+        specifier: ^4.17.23
         version: 4.17.23
       react:
         specifier: ^19.2.4
